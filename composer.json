@@ -1,0 +1,37 @@
+{
+  "name": "omis28ca/laravel-ejabberd",
+  "description": "Ejabbered API Wrapper for Laravel 9/10",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "omis28ca",
+      "email": "omis28ca@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "guzzlehttp/guzzle": "^7.2",
+    "illuminate/support": "^5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ejabberd\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ejabberd\\Providers\\EjabberdServiceProvider"
+      ],
+      "aliases": {
+        "Ejabberd": "Ejabberd\\Facades\\Ejabberd"
+      }
+    }
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "allow-plugins": {
+      "kylekatarnls/update-helper": true
+    }
+  }
+}
