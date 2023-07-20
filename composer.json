@@ -10,8 +10,7 @@
   ],
   "require": {
     "php": ">=8.0",
-    "guzzlehttp/guzzle": "^7.2",
-    "illuminate/support": "^5"
+    "guzzlehttp/guzzle": "^7.2"
   },
   "autoload": {
     "psr-4": {
